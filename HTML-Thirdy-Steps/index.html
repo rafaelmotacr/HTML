@@ -6,13 +6,13 @@
     <title>Login</title>
 </head>
 <body>
-    <form name="signup">
-        name : <input type = "text", name = "name"><br>
+    <form name="signup" onsubmit="alert('Formulario enviado')" autocomplete="off" target="_blank" method="post">
+        <label> name : </label> <input type = "text" name = "name" style="color:red"/> <br>
 
-        age  : <input type = "number", name = "age"><br>
+        <label> age  : </label> <input type = "number" min="1" max="100" name = "age" style="color: red"/> <br>
 
-        psswd: <input type = "password", name = "password"><br>
+        <label> psswd: </label> <input type = "password" name = "password" style="color: red"/> <br>
         <button type="submit"> Send </button>
     </form>
 </body>
-</html> 
+</html>
