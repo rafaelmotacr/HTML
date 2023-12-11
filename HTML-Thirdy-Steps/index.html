@@ -6,11 +6,11 @@
     <title>Login</title>
 </head>
 <body>
-    <form name="signup" onsubmit="alert('Formulario enviado')" autocomplete="off" target="_blank" method="post">
+    <form name="signup" onsubmit="alert('Formulario enviado')" autocomplete="off" target="_self">
         <label> name : </label> <input type = "text" name = "name" style="color:red"/> <br>
 
         <label> age  : </label> <input type = "number" min="1" max="100" name = "age" style="color: red"/> <br>
-
+        <label> gay?: </label> <input type = "range" name = "gay?"  min = "0" max = "200" value="0" style="color: red"/> <br>
         <label> psswd: </label> <input type = "password" name = "password" style="color: red"/> <br>
         <button type="submit"> Send </button>
     </form>
